@@ -57,6 +57,4 @@ After building the program, you can run it by providing the path to the director
 ./target/release/site_parser /path/to/directory
 ```
 
-The program will write its output to an `output.csv` file in the same directory.
-```
-Note: It's recommended to create a backup of your data before running the program, especially if the data is not easily recoverable.
+The program will write its output to an `output_<current_datetime>.csv` file in the same directory.
